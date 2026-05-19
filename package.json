@@ -1,0 +1,41 @@
+{
+  "name": "land-navigation-boundary-intelligence",
+  "version": "1.0.0",
+  "description": "MVP demo for survey-number based land navigation and boundary intelligence.",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KunalPawar41/Sample.git"
+  },
+  "keywords": [
+    "land-records",
+    "navigation",
+    "gis",
+    "leaflet",
+    "survey-number"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KunalPawar41/Sample/issues"
+  },
+  "homepage": "https://github.com/KunalPawar41/Sample#readme",
+  "dependencies": {
+    "leaflet": "^1.9.4",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6"
+  },
+  "devDependencies": {
+    "@types/leaflet": "^1.9.21",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "@vitejs/plugin-react": "^6.0.2",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.13"
+  }
+}
